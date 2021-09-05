@@ -21,7 +21,7 @@ after_success:
   - docker push hoangluong/multi-client
   - docker push hoangluong/multi-nginx
   - docker push hoangluong/multi-server
-  - docker push hoangluong/multi-worker
+  - docker push hoangluong/multi-worker 
 
 deploy:
   provider: elasticbeanstalk
